@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../../Component/Footer/Footer';
+import LastFooter from '../../Component/Footer/LastFooter';
 import Header from '../../Component/Header/Header';
 import Intro from '../../Component/IntroSection/Intro';
 import ProgramStructure from '../../Component/ProgramStructure/ProgramStructure';
@@ -15,6 +16,7 @@ const Home = () => {
         <Schedule/>
         <TeacherSection/>
         <Footer/>
+        <LastFooter/>
         </>
     );
 };

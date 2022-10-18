@@ -1,0 +1,110 @@
+.TeacherDesc {
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 16px;
+    text-align: justify;
+    padding: 0px 20px 0px 0px;
+    height: 400px;
+}
+
+.MainDescTeacher {
+    height: 400px;
+}
+
+.teacherSectionHeader {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36.49px;
+    line-height: 44px;
+    /* identical to box height */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.TeacherName {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.63px;
+    line-height: 31px;
+    /* identical to box height */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
+}
+
+.Teachers {
+    position: relative;
+    left: -10px;
+    display: grid;
+    gap: 20px;
+}
+.Teachers li{
+list-style: none;
+}
+.Teachers li h5 {
+    margin-left: 15px;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22.78px;
+    line-height: 27px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #8C8C8C;
+    cursor: pointer;
+}
+
+.TeacherImageWrapper {
+    background: #FE5268;
+    border-radius: 16px;
+    margin: 52px 0px;
+
+    padding: 0px 10px 10px 0px;
+    border-radius: 10px;
+}
+
+.TeacherImage {
+    margin: -85px 0px 0px -20px;
+}
+
+.TeacherList {
+list-style: disc !important;
+    font-size: 36px;
+    color: #F64C3B;
+}
+
+.TeacherList h5{
+    color: #F64C3B !important;
+}
+.MainDescTeacher p{
+    font-size: 16px;
+        }
+@media (max-width: 575.98px) { 
+    .MainDescTeacher p{
+font-size: 0.73em;
+    }
+    .TeacherImageWrapper {
+        background: #FE5268;
+        border-radius: 16px;
+        margin: 49px 0px;
+        padding: 0px 0px 10px 0px;
+        border-radius: 8px;
+        width: 115px;
+    }
+    .TeacherImage {
+        margin: -70px 0px 0px -20px;
+        width: 120px;
+    }
+    .TeacherName {
+        font-family: 'Avenir LT Std';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 21.63px;
+        line-height: 31px;
+        font-feature-settings: 'tnum' on, 'lnum' on;
+        color: #000000;
+    }
+     }

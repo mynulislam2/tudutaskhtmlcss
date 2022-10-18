@@ -1,0 +1,69 @@
+
+.accountTittle{
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40.6px;
+}
+.accountdivor{
+
+    color: #F24397;
+}
+.NamingWrapper h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.6px;
+    line-height: 156.5%;
+    /* or 40px */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+    opacity: 0.5;
+}
+.NamingWrapper a{
+    font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 25.63px;
+line-height: 31px;
+/* identical to box height */
+cursor: pointer;
+text-decoration-line: underline !important;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* grey */
+
+color: #4D4D4D;
+}
+.NamingWrapper p{
+    /* H3 */
+
+font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 28.83px;
+line-height: 35px;
+/* identical to box height */
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+.actionsWrapper a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.6px;
+    line-height: 156.5%;
+    /* identical to box height, or 40px */
+    cursor: pointer;
+    text-decoration-line: underline !important;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    /* dark pink */
+    
+    color: #F24397 !important;
+}

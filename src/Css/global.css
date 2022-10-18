@@ -1,6 +1,15 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Avenir LT Std';
 font-weight: normal;
 font-feature-settings: 'tnum' on, 'lnum' on;
 background-color: #F5F5F5 ;
+overflow-x: hidden;
+box-sizing: border-box;
+width: 100%;
 }

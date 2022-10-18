@@ -19,16 +19,16 @@ const ProgramStructure = () => {
                         <div>
                             <p className='programDurations'><span className="programDuration">90</span> Days </p>
                             <div className="daysTask">
-                                <p>Yoga</p>
-                                <p>Recovery</p>
-                                <p>Rest</p>
-                                <p>Repeat</p>
+                                <h4>Yoga</h4>
+                                <h4>Recovery</h4>
+                                <h4>Rest</h4>
+                                <h4>Repeat</h4>
                             </div>
                         </div>
                     </Col>
                     <Col>
-                        <div>
-                            <img src={ProgramStructureImage} alt="" />
+                        <div >
+                            <img className="programStructureImage" src={ProgramStructureImage} alt="" />
                         </div>
                     </Col>
                 </Row>

@@ -1,0 +1,119 @@
+.circle{
+    background-image: url("../Assests/background/stepper.png");
+    background-repeat: no-repeat;
+    background-position:0% 50%;
+    width: 100%;
+}
+.CircleWrapper {
+    position: relative;
+
+}
+
+.BgCircleImage {
+    width: 424.16px;
+    height: 424.16px;
+    background-color: #FFE7D6;
+    border-radius: 50%;
+    z-index: 1000;
+
+}
+
+.WomenImagebg {
+    border-radius: 50%;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 15%;
+    left: 4.5%;
+    
+}
+.womenImage {
+    position: absolute;
+    top: 0px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 15%;
+    left: 4.5%;
+}
+.TimeWrapper{
+    background-color: #C4C4C4;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+.ScheduleDesc{
+    width: 100%;
+    text-align: justify;
+}
+.ScheduleDesc p{
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 156.5%;
+    /* or 28px */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+}
+
+.ScheduleDesc a{
+    font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 22.78px;
+line-height: 160%;
+/* or 36px */
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+}
+.Times {
+    padding: 7px 11px 7px 15px;
+    border: 1px solid rgba(77, 77, 77, 0.6);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.26);
+    border-radius: 8px;
+    position: absolute;
+    top: 50% ;
+    right:0px
+}
+.YogaBanner{
+max-width: 400px;
+}
+.ScheduleTittle{
+
+font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 32.443px;
+line-height: 39px;
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+.joinbtn{
+
+font-weight: 300;
+font-size: 22.78px;
+line-height: 160%;
+/* or 36px */
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* GradientText */
+
+background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+@media (max-width: 575.98px) { 
+.YogaBanner{
+    max-width: 320px;
+    }
+     }

@@ -1,5 +1,6 @@
 .programStructureWrapper {
     background-color: #FFF3E9;
+    margin-bottom: 50px;
 }
 
 .programDuration {
@@ -20,6 +21,32 @@
     height: 400px;
     justify-content: space-around;
 }
+
+.programDescription div h1{
+    font-family: 'Avenir LT Std';
+font-style: normal;
+font-weight: 300;
+font-size: 37.65px;
+line-height: 156.5%;
+/* or 59px */
+
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+color: #000000;
+}
+.programDescription div p{
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 156.5%;
+    /* or 28px */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #000000;
+    
+}
 .programDurations{
     font-family: 'Avenir LT Std';
     font-style: normal;
@@ -34,13 +61,35 @@
     /* justify-content: space-between; */
 }
 
-.daysTask p {
+.daysTask h4 {
 
     opacity: 0.4;
     padding: 0px 10px 0px 10px;
     border-right: 1px solid #4D4D4D;
+
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32.443px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    
+    color: #565656;
+    
 }
 
-.daysTask p:first-child {
+.daysTask h4:first-child {
     padding-left: 0px;
 }
+.programStructureImage{
+max-width: 400px;
+}
+
+@media (max-width: 575.98px) { 
+    .programStructureImage{
+        max-width: 320px;
+        }
+        
+         }

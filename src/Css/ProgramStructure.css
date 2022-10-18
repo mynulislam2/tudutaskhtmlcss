@@ -1,3 +1,46 @@
-.programStructureWrapper{
-background-color: #FFF3E9;
+.programStructureWrapper {
+    background-color: #FFF3E9;
+}
+
+.programDuration {
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 80.49px;
+    line-height: 97px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    background: -webkit-linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.programDescription{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+}
+.programDurations{
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40.49px;
+    line-height: 97px;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+}
+.daysTask {
+    width: 290px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.daysTask p {
+
+    opacity: 0.4;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #4D4D4D;
+}
+
+.daysTask p:first-child {
+    padding-left: 0px;
 }

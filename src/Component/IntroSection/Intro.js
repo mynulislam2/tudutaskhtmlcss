@@ -41,13 +41,12 @@ const Intro = () => {
                                 {state.ShowTechniques ? <p>
                                     Choose a quiet space so that you can do the session uninterrupted.
                                     Make sure there is at least 2 hours gap between a meal and the class. Choose a quiet space so that you can do the session uninterrupted.
-                                    Make sure there is at least 2 hours gap between a meal and the class.
+                                    Make sure there is at least 2 hours gap between a meal and the class.Make sure there is at least 2 hours gap between a meal and the class.
                                     Put all other devices aside and enjoy the session.
-                                    This is for show Techniques sessions.Make sure there is at least 2 hours gap between a meal and the class.
                                 </p> : <p>Choose a quiet space so that you can do the session uninterrupted.
                                     Make sure there is at least 2 hours gap between a meal and the class. Choose a quiet space so that you can do the session uninterrupted.
                                     Make sure there is at least 2 hours gap between a meal and the class.Make sure there is at least 2 hours gap between a meal and the class.
-                                    Put all other devices aside and enjoy the session.</p>}
+                                    .Techniques are good</p>}
                             </div>
                             <div className="introDescription">
                                 <div>

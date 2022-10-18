@@ -1,0 +1,10 @@
+.navbar-light{
+    background-color: #FFF3E9;
+    height: 80px;
+}
+.userLoggedIn{
+    margin-left: 5rem;
+}
+.navbar-nav a{
+    margin: 0px 10px;
+}

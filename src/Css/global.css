@@ -9,7 +9,7 @@ body{
 font-weight: normal;
 font-feature-settings: 'tnum' on, 'lnum' on;
 background-color: #F5F5F5 ;
-overflow-x: hidden;
 box-sizing: border-box;
-width: 100%;
+width: 100%;    
+overflow-x: hidden;
 }

@@ -31,7 +31,7 @@ const TeacherSection = () => {
                     </div>
                 </Col>
                 <Col xs={12} sm={12} md={12} lg={8} className="TeacherDesc">
-                    <div className='d-flex justify-content-between gap-5'>
+                    <div className='d-flex justify-content-between gap-4'>
                         <div>
                             <div className="TeacherImageWrapper ">
                                 <img className="TeacherImage " src={manTeacher} alt="" />

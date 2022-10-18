@@ -82,6 +82,13 @@ font-feature-settings: 'tnum' on, 'lnum' on;
 }
 .YogaBanner{
 max-width: 400px;
+position: relative;
+}
+.Yogaday {
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+    color: #ffffff;
 }
 .ScheduleTittle{
 
@@ -115,5 +122,11 @@ text-fill-color: transparent;
 @media (max-width: 575.98px) { 
 .YogaBanner{
     max-width: 320px;
+    }
+    .Yogaday {
+        position: absolute;
+        top: 7rem;
+        left: 1.8rem;
+        color: #ffffff;
     }
      }

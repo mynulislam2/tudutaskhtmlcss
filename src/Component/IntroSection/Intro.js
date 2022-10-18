@@ -23,7 +23,7 @@ const Intro = () => {
                 </Row>
                 <Row >
 
-                    <Col xs={12} sm={12} lg={6} >
+                    <Col xs={12} sm={12} lg={6} className="mb-4">
                         <ReactPlayer  className="IntroVideo" url='https://www.youtube.com/watch?v=lT7BVniyc6Y&ab_channel=ZillurRahman' controls={true}  />
 
                     </Col>

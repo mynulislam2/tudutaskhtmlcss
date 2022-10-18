@@ -24,8 +24,9 @@ const Schedule = () => {
 
             </div> */}
             <Row xs={1} sm={1} md={1} lg={2} xl={2}>
-                <Col>
+                <Col className="position-relative">
                     <img className='YogaBanner' src={women} alt="" />
+                    <p className='Yogaday'>1</p>
                 </Col>
                 <Col>
                     <div>
@@ -43,7 +44,7 @@ const Schedule = () => {
                                 <option value='3'>week 3</option>
                             </select>
                         </div>
-                        <div className='ScheduleDesc'>
+                        <div className='ScheduleDesc mt-3'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

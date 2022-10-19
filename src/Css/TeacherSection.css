@@ -2,13 +2,33 @@
     background: rgba(196, 196, 196, 0.3);
     border-radius: 16px;
     text-align: justify;
-    padding: 0px 20px 0px 0px;
-    height: 25rem;
+    padding: 0px 10px 0px 0px;
+    margin-top: 20px;
+}
+
+.swiper-button-lock {
+    display: block;
+}
+
+.mySwiper1 .swiper-slide {
+    height: 475px !important;
+}
+
+.mySwiper1 .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+    left: 40rem !important;
+}
+
+.mySwiper1 .swiper-button-next,
+.mySwiper1 .swiper-button-prev {
+    position: absolute;
+    top: 29rem !important;
 }
 
 .MainDescTeacher {
     height: 400px;
 }
+
 
 .teacherSectionHeader {
     font-family: 'Avenir LT Std';
@@ -42,9 +62,11 @@
     display: grid;
     gap: 20px;
 }
-.Teachers li{
-list-style: none;
+
+.Teachers li {
+    list-style: none;
 }
+
 .Teachers li h5 {
     margin-left: 15px;
     font-family: 'Avenir LT Std';
@@ -67,37 +89,43 @@ list-style: none;
 }
 
 .TeacherImage {
-    margin: -85px 0px 0px -20px;
+    margin: -85px 0px 0px 0px;
 }
 
 .TeacherList {
-list-style: disc !important;
+    list-style: disc !important;
     font-size: 36px;
     color: #F64C3B;
 }
 
-.TeacherList h5{
+
+.TeacherList h5 {
     color: #F64C3B !important;
 }
-.MainDescTeacher p{
+
+.MainDescTeacher p {
     font-size: 16px;
-        }
-@media (max-width: 575.98px) { 
-    .MainDescTeacher p{
-font-size: 0.72rem;
+}
+
+@media (max-width: 575.98px) {
+    .MainDescTeacher p {
+        font-size: 0.72rem;
     }
+
+
     .TeacherImageWrapper {
         background: #FE5268;
         border-radius: 16px;
         margin: 49px 0px;
-        padding: 0px 0px 10px 0px;
+        padding: 0px 0px 10px -3px;
         border-radius: 8px;
-        width: 115px;
+        /* width: 115px; */
     }
-    .TeacherImage {
-        margin: -70px 0px 0px -20px;
-        width: 120px;
-    }
+.TeacherImage {
+    margin: -70px 0px 0px 0px;
+    width: 120px;
+}
+
     .TeacherName {
         font-family: 'Avenir LT Std';
         font-style: normal;
@@ -107,4 +135,4 @@ font-size: 0.72rem;
         font-feature-settings: 'tnum' on, 'lnum' on;
         color: #000000;
     }
-     }
+}

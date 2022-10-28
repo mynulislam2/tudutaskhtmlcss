@@ -37,9 +37,7 @@
     font-size: 36.49px;
     line-height: 44px;
     /* identical to box height */
-
     font-feature-settings: 'tnum' on, 'lnum' on;
-
     color: #000000;
 }
 

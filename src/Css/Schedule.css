@@ -1,9 +1,10 @@
-.circle{
+.circle {
     background-image: url("../Assests/background/stepper.png");
     background-repeat: no-repeat;
-    background-position:0% 50%;
+    background-position: 0% 50%;
     width: 100%;
 }
+
 .CircleWrapper {
     position: relative;
 
@@ -26,8 +27,9 @@
     position: absolute;
     top: 15%;
     left: 4.5%;
-    
+
 }
+
 .womenImage {
     position: absolute;
     top: 0px;
@@ -37,122 +39,218 @@
     top: 15%;
     left: 4.5%;
 }
-.TimeWrapper{
+
+.TimeWrapper {
     background-color: #C4C4C4;
     height: 300px;
     width: 100%;
     position: relative;
 }
-.ScheduleDesc{
+
+.ScheduleDesc {
     width: 100%;
     text-align: justify;
 }
-.ScheduleDesc p{
+
+.ScheduleDesc p {
     font-family: 'Avenir LT Std';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 156.5%;
     /* or 28px */
-    
+
     font-feature-settings: 'tnum' on, 'lnum' on;
-    
+
     color: #000000;
 }
 
-.ScheduleDesc a{
+.ScheduleDesc a {
     font-family: 'Avenir LT Std';
-font-style: normal;
-font-weight: 300;
-font-size: 22.78px;
-line-height: 160%;
-/* or 36px */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22.78px;
+    line-height: 160%;
+    /* or 36px */
 
-font-feature-settings: 'tnum' on, 'lnum' on;
+    font-feature-settings: 'tnum' on, 'lnum' on;
 
 }
+
 .Times {
     padding: 7px 11px 7px 15px;
     border: 1px solid rgba(77, 77, 77, 0.6);
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.26);
     border-radius: 8px;
     position: absolute;
-    top: 50% ;
-    right:0px
+    top: 50%;
+    right: 0px
 }
-.YogaBanner{
-max-width: 400px;
-position: relative;
+
+.YogaBanner {
+    max-width: 400px;
+    position: relative;
 }
+
 .Yogaday {
     position: absolute;
     top: 9rem;
     left: 2rem;
     color: #ffffff;
 }
-.ScheduleTittle{
 
-font-family: 'Avenir LT Std';
-font-style: normal;
-font-weight: 300;
-font-size: 32.443px;
-line-height: 39px;
+.ScheduleTittle {
 
-font-feature-settings: 'tnum' on, 'lnum' on;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32.443px;
+    line-height: 39px;
 
-color: #000000;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    color: #000000;
 }
+
 .swiper-button-next {
     background-image: url("../Assests/Icons/rightarrow.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
-  }
-  .swiper-button-prev{
+}
+
+.swiper-button-prev {
     background-image: url("../Assests/Icons/leftArrow.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
 
-  }
-  .swiper-button-next, .swiper-button-prev {
+}
+
+.swiper-button-next,
+.swiper-button-prev {
     top: 2rem !important;
 
 }
-  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
 
     left: 28rem !important;
     right: auto;
 }
-  .swiper-button-next::after {
+
+.swiper-button-next::after {
     display: none;
-  }
-  .swiper-button-prev::after {
-    display: none;
-  }
-.joinbtn{
-
-font-weight: 300;
-font-size: 22.78px;
-line-height: 160%;
-/* or 36px */
-
-font-feature-settings: 'tnum' on, 'lnum' on;
-
-/* GradientText */
-
-background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
 }
-@media (max-width: 575.98px) { 
-.YogaBanner{
-    max-width: 320px;
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+.joinbtn {
+
+    font-weight: 300;
+    font-size: 22.78px;
+    line-height: 160%;
+    /* or 36px */
+
+    font-feature-settings: 'tnum' on, 'lnum' on;
+
+    /* GradientText */
+
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.ElementBg1{
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 1rem;
+    top: 12rem;
+}
+.ElementBg2 {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 3rem;
+    top: 16rem;
+}
+.ElementBg3 {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 7rem;
+    top: 20rem;
+}
+.ElementBg4 {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 12.5rem;
+    top: 22rem;
+}
+.ElementBg5 {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 18rem;
+    top: 21rem;
+}
+.ElementBg6 {
+    background: linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    position: absolute;
+    left: 22.5rem;
+    top: 18rem;
+}
+@media (max-width: 575.98px) {
+    .YogaBanner {
+        max-width: 320px;
     }
+
     .Yogaday {
         position: absolute;
         top: 7rem;
         left: 1.8rem;
         color: #ffffff;
     }
-     }
+}
